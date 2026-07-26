@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Market Recap - 周度市场回顾</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background-color: #f7fafc;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        header {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        h1 {
+            color: #2c5282;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #718096;
+            font-size: 1em;
+        }
+        .recap-list {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .recap-item {
+            padding: 24px 28px;
+            border-bottom: 1px solid #e2e8f0;
+            transition: background-color 0.2s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .recap-item:last-child {
+            border-bottom: none;
+        }
+        .recap-item:hover {
+            background-color: #f7fafc;
+        }
+        .recap-info h3 {
+            color: #2c5282;
+            font-size: 1.15em;
+            margin-bottom: 6px;
+        }
+        .recap-info p {
+            color: #718096;
+            font-size: 0.9em;
+        }
+        .recap-link {
+            color: #3182ce;
+            text-decoration: none;
+            font-size: 0.9em;
+            padding: 8px 16px;
+            border: 1px solid #3182ce;
+            border-radius: 6px;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .recap-link:hover {
+            background-color: #3182ce;
+            color: white;
+        }
+        .latest-badge {
+            display: inline-block;
+            background-color: #48bb78;
+            color: white;
+            font-size: 0.7em;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #a0aec0;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weekly Market Recap</h1>
+            <p class="subtitle">周度市场回顾 · 每周更新</p>
+        </header>
+
+        <div class="recap-list">
+            <div class="recap-item">
+                <div class="recap-info">
+                    <h3>2026年7月28日 <span class="latest-badge">最新</span></h3>
+                    <p>覆盖时间：7月20日 - 7月26日 · GOOGL / TSLA / INTC / NOW 财报解读</p>
+                </div>
+                <a href="Recap_2026-07-28.html" class="recap-link">查看详情 →</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>每周日晚自动更新 · 仅供内部参考</p>
+        </footer>
+    </div>
+</body>
+</html>
